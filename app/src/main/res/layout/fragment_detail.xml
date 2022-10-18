@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/material_dynamic_primary90"
+    android:orientation="vertical"
+    tools:context=".DetailFragment">
+
+
+    <TextView
+        android:id="@+id/tvNameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:text="Nombre placeholder"
+        android:textColor="#455A64"
+        android:textSize="20sp"
+        android:textAlignment="center"
+
+        android:layout_marginTop="-100dp"/>
+
+    <ImageView
+        android:id="@+id/ivProfilePicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        tools:src="@tools:sample/avatars"
+
+        android:layout_marginTop="50dp"
+        android:contentDescription="Foto de perfil" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Llamar"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enviar e-mail"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
